@@ -18,26 +18,25 @@ console.log("[*] Hook JS carregado");
 const base = Module.findBaseAddress(PROCESS);
 if (base === null) {
     console.log("[ERRO] Base do módulo não encontrada");
-    return;
-}
+} else {
+    console.log("[OK] Base:", base);
 
-console.log("[OK] Base:", base);
+    // Função de tick (chamada constantemente)
+    const TICK_FUNC = base.add(0x3A92A0); // FUN_004a92a0
 
-// Função de tick (chamada constantemente)
-const TICK_FUNC = base.add(0x3A92A0); // FUN_004a92a0
+    Interceptor.attach(TICK_FUNC, {
+        onEnter(args) {
+            const state = Memory.readU32(GAME_STATE);
 
-Interceptor.attach(TICK_FUNC, {
-    onEnter(args) {
-        const state = Memory.readU32(GAME_STATE);
-
-        // 3 = seleção de personagem
-        if (state !== 3) {
-            console.log("[HOOK] Forçando tela de seleção");
-            Memory.writeU32(GAME_STATE, 3);
-            Memory.writeU32(GAME_SUBSTATE, 0);
+            // 3 = seleção de personagem
+            if (state !== 3) {
+                console.log("[HOOK] Forçando tela de seleção");
+                Memory.writeU32(GAME_STATE, 3);
+                Memory.writeU32(GAME_SUBSTATE, 0);
+            }
         }
-    }
-});
+    });
+}
 """
 
 def on_message(message, data):
