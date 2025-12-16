@@ -1,0 +1,39 @@
+;	ٿƮ  ũƮ																	
+;	2005/12/06																	
+;																		
+;																		
+;																		
+;																		
+;	0	Թٴʱ	??															
+;	1		??															
+;	2	θ޶	ߣ?															
+;	4	̿	??															
+;	5	!̷	?															
+;	6		??															
+;	7	Ÿ	??															
+;	8		?															
+;																		
+;																		
+;	ȣ	̸	ʸҽ	ũƮ	BGM	UI׸	ѽð	˶۽ð	⺻	*	뺴⺻	뺴*	MAX	ʿLEFT	ʿTOP	ʿRIGHT	ʿBOTTOM	ʼ
+;	0	??	base_gvdoutpost	base_gvdoutpost.bse	sound/bgm_dun01.wav	data/ui/ui_mt001.tga	450	45	15	0	15	0	5	24	21	106	0	1
+;	1	??	base_portbattle	base_portbattle.bse	sound/bgm_dun02.wav	data/ui/ui_mt002.tga	450	45	15	0	15	0	5	31	20	101	0	1
+;	2	ߣ?	base_snowmera	base_snowmera.bse	sound/bgm_dun01.wav	data/ui/ui_mt003.tga	450	45	15	0	15	0	5	29	30	110	0	1
+;	4	??	base_neighbor	base_neighbor.bse	sound/bgm_dun02.wav	data/ui/ui_mt004.tga	450	45	15	0	15	0	5	46	74	81	52	1
+;	5	?	base_highland	base_highland.bse	sound/bgm_dun02.wav	data/ui/ui_mt005.tga	450	45	15	0	15	0	5	23	74	100	48	1
+;	6	??	base_fightplain	base_fightplain.bse	sound/bgm_dun01.wav	data/ui/ui_mt006.tga	450	45	15	0	15	0	5	8	58	119	22	1
+;	7	??	base_worldcup	base_worldcup.bse	sound/bgm_dun01.wav	data/ui/ui_mt007.tga	450	45	15	0	15	0	5	19	63	81	35	1
+;	8	?	base_skycamp	base_skycamp.bse	sound/bgm_dun02.wav	data/ui/ui_mt008.tga	450	45	15	0	15	0	5	8	110	120	39	1
+;																		
+;																		
+;																		
+;	ȣ	̸	ʸҽ	ũƮ	BGM	UI׸	ѽð	˶۽ð	⺻	*	뺴⺻	뺴*	MAX	ʿLEFT	ʿTOP	ʿRIGHT	ʿBOTTOM	ʼ
+	0	OceanOutpost	base_gvdoutpost	base_gvdoutpost.bse	sound/bgm_dun01.wav	data/ui/ui_mt001.tga	450	45	15	0	15	0	5	24	21	106	0	1
+	1	Wharf battle	base_portbattle	base_portbattle.bse	sound/bgm_dun02.wav	data/ui/ui_mt002.tga	450	45	15	0	15	0	5	31	20	101	0	1
+	2	Snow Field	base_snowmera	base_snowmera.bse	sound/bgm_dun01.wav	data/ui/ui_mt003.tga	450	45	15	0	15	0	5	29	30	110	0	1
+	4	Neighbour	base_neighbor	base_neighbor.bse	sound/bgm_dun02.wav	data/ui/ui_mt004.tga	450	45	15	0	15	0	5	46	74	81	52	1
+	5	Highland	base_highland	base_highland.bse	sound/bgm_dun02.wav	data/ui/ui_mt005.tga	450	45	15	0	15	0	5	23	74	100	48	1
+	6	Battleground	base_fightplain	base_fightplain.bse	sound/bgm_dun01.wav	data/ui/ui_mt006.tga	450	45	15	0	15	0	5	8	58	119	22	1
+	7	Stadium	base_worldcup	base_worldcup.bse	sound/bgm_dun01.wav	data/ui/ui_mt007.tga	450	45	15	0	15	0	5	19	63	81	35	1
+	8	Sky Base	base_skycamp	base_skycamp.bse	sound/bgm_dun02.wav	data/ui/ui_mt008.tga	450	45	15	0	15	0	5	8	110	120	39	1
+;																		
+																		
