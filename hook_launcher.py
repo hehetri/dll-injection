@@ -15,10 +15,11 @@ const GAME_SUBSTATE = ptr("0x007930e4"); // DAT_007930e4
 
 console.log("[*] Hook JS carregado");
 
-const base = Module.findBaseAddress(PROCESS);
-if (base === null) {
+const moduleInfo = Process.enumerateModulesSync().find(m => m.name.toLowerCase() === PROCESS.toLowerCase());
+if (!moduleInfo) {
     console.log("[ERRO] Base do módulo não encontrada");
 } else {
+    const base = moduleInfo.base;
     console.log("[OK] Base:", base);
 
     // Função de tick (chamada constantemente)
