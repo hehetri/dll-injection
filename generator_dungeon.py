@@ -8,7 +8,41 @@ import sys
 def _load_dungeon_json(dungeon_name, base_path):
     path = os.path.join(base_path, f"{dungeon_name}.json")
     with open(path, "r", encoding="utf-8") as handle:
-        return json.load(handle)
+        content = handle.read()
+
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        # Allow a second parsing attempt after stripping comments and extra whitespace.
+        cleaned_lines = []
+        for line in content.splitlines():
+            stripped = line.strip()
+            if stripped.startswith("//") or stripped.startswith("#"):
+                continue
+            cleaned_lines.append(stripped)
+
+        cleaned_content = "\n".join(cleaned_lines)
+
+        # If parsing still fails, try to recover the first JSON object so we can surface a
+        # clearer error that references the offending file.
+        try:
+            return json.loads(cleaned_content)
+        except json.JSONDecodeError as exc:
+            decoder = json.JSONDecoder()
+            try:
+                obj, end = decoder.raw_decode(cleaned_content)
+            except json.JSONDecodeError as inner_exc:
+                raise ValueError(
+                    f"Erro ao ler {path}: {inner_exc.msg} (linha {inner_exc.lineno} coluna {inner_exc.colno})"
+                ) from inner_exc
+
+            remainder = cleaned_content[end:].strip()
+            if remainder:
+                print(
+                    f"Aviso: Dados adicionais ignorados em {path} após a posição {end}. Verifique a formatação JSON."
+                )
+
+            return obj
 
 
 def run(args=None):
