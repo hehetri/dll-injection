@@ -75,6 +75,32 @@ def _load_dungeon_json(dungeon_name, base_path):
     return obj
 
 
+def _normalize_clear_index(value, script_name, block_index, spawns_length):
+    """Convert clear array entries to integer indices and validate bounds."""
+
+    if isinstance(value, int):
+        index = value
+    elif isinstance(value, str):
+        stripped = value.strip()
+        if stripped.isdigit():
+            index = int(stripped)
+        else:
+            raise ValueError(
+                f"Valor de 'clear' inválido em {script_name}.json (bloco {block_index + 1}): esperado índice numérico, obtido {value!r}."
+            )
+    else:
+        raise ValueError(
+            f"Valor de 'clear' inválido em {script_name}.json (bloco {block_index + 1}): esperado inteiro ou string numérica, obtido {type(value).__name__}."
+        )
+
+    if index < 0 or index >= spawns_length:
+        raise ValueError(
+            f"Valor de 'clear' inválido em {script_name}.json (bloco {block_index + 1}): índice {index} fora do intervalo de spawns (0 a {spawns_length - 1})."
+        )
+
+    return index
+
+
 def run(args=None):
     parser = argparse.ArgumentParser(
         description="Generate dungeon.bin from individual dungeon JSON definitions."
@@ -263,24 +289,35 @@ def run(args=None):
             script.extend([0x0D, 0x0A])
 
             # Begin parsing of blocks
-            for block in script_object["blocks"]:
+            for block_idx, block in enumerate(script_object["blocks"]):
                 # Parse all the arrays
                 for array in ["rect", "enemies", "respawn", "clear", "vip", "exceptional"]:
+                    values = block[array]
+
                     # Add array length for these scopes
                     if array != "rect":
                         script.append(0x09)
-                        script.extend(str(len(block[array])).encode("windows-1252", errors="replace"))
+                        script.extend(str(len(values)).encode("windows-1252", errors="replace"))
                         script.append(0x09)
 
                     # If the array is clear, we want to get its length and add it to min_mobs
                     if array == "clear":
-                        for value in block["clear"]:
-                            monster_idx = script_object["spawns"][value]
+                        normalized_clear = []
+                        for value in values:
+                            clear_index = _normalize_clear_index(
+                                value,
+                                script_name,
+                                block_idx,
+                                len(script_object["spawns"]),
+                            )
+                            monster_idx = script_object["spawns"][clear_index]
                             if monster_idx != -1:
                                 min_mobs += 1
+                            normalized_clear.append(clear_index)
+                        values = normalized_clear
 
                     # Add array value to the array in question
-                    for value in block[array]:
+                    for value in values:
                         script.append(0x09)
                         script.extend(str(value).encode("windows-1252", errors="replace"))
                         script.append(0x09)

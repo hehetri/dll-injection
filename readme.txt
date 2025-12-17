@@ -11,6 +11,7 @@ Este repositório contém um script (`generator_dungeon.py`) que transforma arqu
    - Linhas comentadas iniciando com `//`, `#` e blocos entre `/* ... */` são ignorados automaticamente.
    - Se houver mais de um objeto JSON no arquivo, somente o primeiro será usado e o restante será ignorado com um aviso.
    - Arquivos vazios, apenas com comentários ou sem um valor JSON logo no início geram erro indicando o arquivo problemático para facilitar o ajuste.
+   - Valores de `clear` podem ser números ou strings numéricas; eles são normalizados para índices inteiros e geram erro se ficarem fora dos limites da lista `spawns`.
 2. Execute o comando abaixo informando o caminho de saída para o `dungeon.bin`.
 
 ```bash
