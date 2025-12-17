@@ -5,15 +5,44 @@ import os
 import sys
 
 
+def _strip_block_comments(text):
+    """Remove C-style /* */ comments from a text block."""
+
+    result = []
+    in_comment = False
+    i = 0
+    while i < len(text):
+        if not in_comment and text.startswith("/*", i):
+            in_comment = True
+            i += 2
+            continue
+
+        if in_comment and text.startswith("*/", i):
+            in_comment = False
+            i += 2
+            continue
+
+        if not in_comment:
+            result.append(text[i])
+
+        i += 1
+
+    return "".join(result)
+
+
 def _load_dungeon_json(dungeon_name, base_path):
     path = os.path.join(base_path, f"{dungeon_name}.json")
     with open(path, "r", encoding="utf-8") as handle:
         content = handle.read()
 
+    # Remove UTF-8 BOM if present and strip C-style comments early so regular JSON parsing
+    # has the best chance of succeeding.
+    content = _strip_block_comments(content.lstrip("\ufeff"))
+
     try:
         return json.loads(content)
     except json.JSONDecodeError:
-        # Allow a second parsing attempt after stripping comments and extra whitespace.
+        # Allow a second parsing attempt after stripping line comments and extra whitespace.
         cleaned_lines = []
         for line in content.splitlines():
             stripped = line.strip()
@@ -21,13 +50,18 @@ def _load_dungeon_json(dungeon_name, base_path):
                 continue
             cleaned_lines.append(stripped)
 
-        cleaned_content = "\n".join(cleaned_lines)
+        cleaned_content = "\n".join(cleaned_lines).strip()
+
+        if not cleaned_content:
+            raise ValueError(
+                f"Erro ao ler {path}: o arquivo parece vazio ou contém apenas comentários."
+            )
 
         # If parsing still fails, try to recover the first JSON object so we can surface a
         # clearer error that references the offending file.
         try:
             return json.loads(cleaned_content)
-        except json.JSONDecodeError as exc:
+        except json.JSONDecodeError:
             decoder = json.JSONDecoder()
             try:
                 obj, end = decoder.raw_decode(cleaned_content)
