@@ -39,44 +39,40 @@ def _load_dungeon_json(dungeon_name, base_path):
     # has the best chance of succeeding.
     content = _strip_block_comments(content.lstrip("\ufeff"))
 
+    # Remove line comments and trailing whitespace-only lines before decoding.
+    cleaned_lines = []
+    for line in content.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("//") or stripped.startswith("#"):
+            continue
+        cleaned_lines.append(stripped)
+
+    cleaned_content = "\n".join(cleaned_lines).strip()
+
+    if not cleaned_content:
+        raise ValueError(
+            f"Erro ao ler {path}: o arquivo parece vazio ou contém apenas comentários."
+        )
+
+    decoder = json.JSONDecoder()
     try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        # Allow a second parsing attempt after stripping line comments and extra whitespace.
-        cleaned_lines = []
-        for line in content.splitlines():
-            stripped = line.strip()
-            if stripped.startswith("//") or stripped.startswith("#"):
-                continue
-            cleaned_lines.append(stripped)
-
-        cleaned_content = "\n".join(cleaned_lines).strip()
-
-        if not cleaned_content:
+        obj, end = decoder.raw_decode(cleaned_content)
+    except json.JSONDecodeError as exc:
+        if exc.pos == 0:
             raise ValueError(
-                f"Erro ao ler {path}: o arquivo parece vazio ou contém apenas comentários."
-            )
+                f"Erro ao ler {path}: não há JSON válido (linha {exc.lineno} coluna {exc.colno})."
+            ) from exc
+        raise ValueError(
+            f"Erro ao ler {path}: {exc.msg} (linha {exc.lineno} coluna {exc.colno})"
+        ) from exc
 
-        # If parsing still fails, try to recover the first JSON object so we can surface a
-        # clearer error that references the offending file.
-        try:
-            return json.loads(cleaned_content)
-        except json.JSONDecodeError:
-            decoder = json.JSONDecoder()
-            try:
-                obj, end = decoder.raw_decode(cleaned_content)
-            except json.JSONDecodeError as inner_exc:
-                raise ValueError(
-                    f"Erro ao ler {path}: {inner_exc.msg} (linha {inner_exc.lineno} coluna {inner_exc.colno})"
-                ) from inner_exc
+    remainder = cleaned_content[end:].strip()
+    if remainder:
+        print(
+            f"Aviso: Dados adicionais ignorados em {path} após a posição {end}. Verifique a formatação JSON."
+        )
 
-            remainder = cleaned_content[end:].strip()
-            if remainder:
-                print(
-                    f"Aviso: Dados adicionais ignorados em {path} após a posição {end}. Verifique a formatação JSON."
-                )
-
-            return obj
+    return obj
 
 
 def run(args=None):
