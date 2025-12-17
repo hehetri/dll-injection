@@ -1,0 +1,23 @@
+# Gerador de dungeon.bin
+
+Este repositório contém um script (`generator_dungeon.py`) que transforma arquivos JSON individuais de dungeons em um único arquivo `dungeon.bin`.
+
+## Pré-requisitos
+- Python 3.8 ou superior.
+- Arquivos JSON de cada dungeon no diretório de entrada (por padrão `files/dungeon` ao lado do script).
+
+## Como usar
+1. Crie (ou aponte) um diretório contendo os arquivos JSON com os nomes listados no script.
+2. Execute o comando abaixo informando o caminho de saída para o `dungeon.bin`.
+
+```bash
+python generator_dungeon.py caminho/para/dungeon.bin --input-dir caminho/para/pasta/dungeon_json
+```
+
+Se você mantiver a estrutura padrão (`files/dungeon` ao lado do script), basta indicar apenas o arquivo de saída:
+
+```bash
+python generator_dungeon.py dungeon.bin
+```
+
+O script exibirá o progresso no terminal e criará o arquivo `dungeon.bin` no caminho informado.
