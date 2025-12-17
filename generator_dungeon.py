@@ -302,6 +302,11 @@ def run(args=None):
 
                     # If the array is clear, we want to get its length and add it to min_mobs
                     if array == "clear":
+                        if not isinstance(script_object["spawns"], list):
+                            raise TypeError(
+                                f"Formato inválido em {script_name}.json: 'spawns' deve ser uma lista para mapear índices de 'clear'."
+                            )
+
                         normalized_clear = []
                         for value in values:
                             clear_index = _normalize_clear_index(
@@ -310,10 +315,19 @@ def run(args=None):
                                 block_idx,
                                 len(script_object["spawns"]),
                             )
-                            monster_idx = script_object["spawns"][clear_index]
+
+                            try:
+                                monster_idx = script_object["spawns"][int(clear_index)]
+                            except TypeError as exc:
+                                raise TypeError(
+                                    f"Valor de 'clear' inválido em {script_name}.json (bloco {block_idx + 1}): índice {clear_index!r} não pôde ser interpretado como inteiro."
+                                ) from exc
+
                             if monster_idx != -1:
                                 min_mobs += 1
-                            normalized_clear.append(clear_index)
+
+                            normalized_clear.append(int(clear_index))
+
                         values = normalized_clear
 
                     # Add array value to the array in question
