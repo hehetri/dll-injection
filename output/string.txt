@@ -1,0 +1,619 @@
+0	Blank(0)
+1	Wrong data entry!  Please try again.
+2	The image size cut is too big.
+3	The number of characters input has exceeded the limit.
+4	You have entered an incorrect server IP!
+5	You have entered an incorrect User ID
+6	Parameter setting is incorrect.
+7	Decoding is incorrect.
+8	Due to a temporary network error, the game cannot be played at the moment.
+9	Unable to open the file!
+10	Hacking has been reported.
+11	Incorrect game mode!
+12	Unable to read the file!
+13	Please check the DirectX version. In order to play the game, DirectX Version 9.0 or higher is required.
+14	An unsupported graphic card has been detected.
+15	Blank(15)
+16	sound/soundfx.bin file does not exist.
+17	The content of sound/sound.bin is incorrect.
+18	Blank(18)
+19	Warning! Any illegal act of data alteration or manipulation can be punished by law.
+20	A login error has occurred!
+21	Inappropriate words have been detected! Please refrain from using these words.
+22	[Warning] You cannot send the same message three consecutive times.
+23	You cannot whisper to yourself!
+24	You have been forced out of the room!  Please select another room or make your own.
+25	Due to system overload, the game is temporarily unavailable.
+26	The room master has abandoned this room.  Please select another room or make your own.
+27	Database error.
+28	Due to system overload, the game is temporarily unavailable.
+29	[%s] has logged in with your User ID. If you suspect improper use of your User ID, please change your password.
+30	Either a hacking program has been detected or a network error has occurred. Please check your system and try to connect again.
+31	This item does not exist.
+32	Failed to connect to the server! Try again later.
+33	You have entered a User ID that does not exist! Please check your User ID and try again.
+34	You have entered an incorrect password!  Please check your password and try again.
+35	Time has expired! Please log in again.
+36	Your pay service period has expired.  Please check your account and try again.
+37	A protocol error!  Please try again.
+38	Incorrect data entry! Please try again.
+39	Incorrect authentication!  Please try again.
+40	BOT name error. Please try again.
+41	User ID is not correct!  Please check the User ID and try again.
+42	BOT does not exist! Please reconnect and create another BOT.
+43	This name already exists.  Please try a different name.
+44	Failed to make an armory! Please try again.
+45	Failed to make an armory! Please try again.
+46	This name already exists.  Please try a different name.
+47	There is no available room at the moment.  Please try later or make your own room.
+48	This game has already started!  Please select another room.
+49	The BOT is not logged into the game!  Please check and try again.
+50	Your request has been refused.
+51	You have entered an incorrect password!  Please check your password and try again.
+52	Incorrect BOT name!  Please check the name and try again.
+53	Incorrect User ID!  Please check the User ID and try again.
+54	Insufficient game points!  Please check the balance and try again.
+55	Only tournament participants can enter.
+56	Insufficient game points!  Please check the balance and try again.
+57	Not enough space in the slot!  Please check and try again.
+58	This item does not exist!
+59	The item purchasing process is different.
+60	Item cannot be sold to the store
+61	Cannot extend the stash anymore. Please check your status and try again.
+62	This item cannot be equipped! Please check the requirements.
+63	The item and BOT Type are not compatible.
+64	This item cannot be upgraded anymore.
+65	Not enough upgrade components. Please try again
+66	Because the item's durability became 0, it has lost its ability. The durability can be restored with Bot-stract. 
+67	The amount you wish to trade is more than what you have right now. Please try again.
+68	This person is in the process of trading. Please try again later.
+69	Your trade request has been denied.
+70	Your request to form a team has been denied.
+71	Your invitation has been denied.
+72	The server and the requested User IDs do not match. Please log in again.
+73	Participants in regular battles are not present at the moment.
+74	The selected room is full! Please try another room.
+75	The results from regular battles are not correct. Please contact a GM.
+76	Your friend request was denied or this player cannot accept friend requests at the moment.
+77	Request timed out.
+78	You cannot add any more players in your friend list! The maximum capacity of your friends list is 10.
+79	Failed to delete friend from friends list. Please try again.
+80	Your message box is full. You cannot write any more messages.
+81	There are no messages. Please check your message list and try again.
+82	Incorrect message location.
+83	Your gift box is full. Please remove some items.
+84	Please add a title to the gift message.
+85	Incorrect gift type.
+86	Incorrect gift location.
+87	Your account balance has reached the maximum level that the system allows. Reduce your balance.
+88	Incorrect accessory location!
+89	Incorrect skill pack location!
+90	Failed to equip the skill pack!
+91	You cannot equip anymore skill packs.
+92	Game results incorrect, transaction failed.
+93	You do not meet the minimum level to equip this item.
+94	You do not meet the minimum level to equp this accessory.
+95	You do not meet the minimum level to equip this skill pack.
+96	This player is already on your friends list.
+97	Someone is already playing. Please check your account.
+98	Game down for maintenance. Check the site for closed beta testing hours.
+99	Your social security number is incorrect. Please check your SSN and try again.
+100	This player is not logged in.
+101	In order to start the game, everybody has to be ready.
+102	The game cannot be started because the room number is incorrect.
+103	Only the room master can start the game.
+104	Game cannot be started without opponents.
+105	The room master is not present.
+106	Players are not present.
+107	Out of selection range.
+108	Room masters cannot force themselves out of the rooms.
+109	A different user is using this User ID. Check your User ID and try again. If you suspect an improper use of your ID, please change your password.
+110	This server is Full, please try another server.
+111	Cannot create anymore rooms.
+112	The game can only be started when there are an equal number of players in both teams.
+113	ID error.
+114	Insufficient balance.
+115	Insufficient event coin.
+116	There is no information for this item.
+117	Possession limit has been exceeded.
+118	Payment system error.
+119	This item cannot be sent as a gift.
+120	You cannot delete your BOT if you are still in a guild or have coin items equipped. Please make these adjustments and try again. 
+121	Unknown error!
+122	All
+123	Whisper
+124	Inappropriate words have been detected! Please refrain from using these words.
+125	The room master has abandoned this room!  Please try another room or make your own.
+126	You have been forced out of the room.  Please select another room or make your own.
+127	You have been forced out of the room for inactivity.
+128	Rule selection is incorrect! Please try again.
+129	The room master has forced you out of the room. Please try a different room or make your own.
+130	The room master has abandoned this room!  Please try another room or make your own.
+131	The room master has forced you out of the room. Please try a different room or make your own.
+132	This room does not exist.  Please select another room or make a new one.
+133	Room password has successfully been changed to: '% s'.
+134	Unable to change room password.
+135	Item information is incorrect!
+136	For more information, please check the T-Bot Rewritten website.
+137	For more information, please check the T-Bot Rewritten website.
+138	Invalid BOT name. The name must be at least 4 characters long.
+139	Invalid BOT name. The name can only contain letters and numbers.
+140	You cannot refer yourself
+141	This BOT cannot be referred.
+142	 does not exist.
+143	 has been referred.
+144	 has been referred. A mini bot has been sent to you as a gift. Please check your gift box.
+145	Incorrect gift type.
+146	The selected item cannot be sent to someone else as a gift.
+147	Gifts have not been selected. Please check and try again.
+148	This gift box has already been emptied. If you do not need it anymore, please delete it.
+149	You have nothing. Please check and try again.
+150	This has no gift title. Please check and try again.
+151	Invalid title. Titles can only be in letters and numbers.
+152	Gifts have not been selected. Please check and try again.
+153	Game points have not been input. Please try again.
+154	Collected items have not been input. Please try again.
+155	The gift you wish to delete has not been selected. Please select one and try again.
+156	Items have not been selected!
+157	Parts for different BOTS type cannot be equipped.
+158	This item cannot be equipped.
+159	Items have not been selected. Please select an item that you wish to remove.
+160	Incorrect item information.
+161	You have entered a incorrect password! Please check your password and try again.
+162	Incorrect User ID. Please check your User ID and try again.
+163	This account has been suspended from T-Bot Rewritten. For more information, please visit our website.
+164	The e-mail address on this account has not been verified. Please visit https://tbot.icseon.com/ to verify your e-mail address.
+165	Failed to log in for three consecutive times. Please wait before attempting to log in again.
+166	blank(166)
+167	This player needs to be upgraded.
+168	This User ID has been warned.
+169	This User ID has been suspended.
+170	This User ID has been reportedly created with a stolen email.
+171	This User ID has been permanently suspended.
+172	IP address blocked.
+173	An authentication error has occurred. Please contact a GM.
+174	Invalid entry. Please enter your User ID.
+175	Invalid entry. Please enter your password.
+176	Invalid entry. Please use only letters.
+177	Incorrect message type.
+178	There is no message entered  Please try again.
+179	Invalid entry.
+180	You did not select a message to read. Please try again.
+181	This key is already being used. Please check and try again.
+182	Invalid BOT name. The name must be at least 4 characters long.
+183	Invalid BOT name. The name can only contain letters and numbers.
+184	You cannot refer yourself.
+185	 does not exist.
+186	 either has already been referred or was an ex-member
+187	 has been referred. A mini bot has been sent to you as a gift. Please check your gift box.
+188	Failed to connect to the game server. Please try again.
+189	Your level does not qualify for this channel. Please select a different channel.
+190	blank(190)
+191	Invalid BOT name. The name must be at least 4 characters long.
+192	Invalid BOT name. The name can only contain letters and numbers.
+193	Data Shop tidak ditemukan.
+194	blank(194)
+195	Recharge coins from our website.
+196	http://cash.icseon.com
+197	Items have not been selected. Please select an item that you wish to buy.
+198	insufficient Gigas! Please check your balance and try again.
+199	blank(199)
+200	Insufficient coins! Please check your balance and try again.
+201	Items have not been selected. Please select an item that you wish to sell from the inventory.
+202	The item selection is wrong. Please select an item that you wish to sell from the inventory.
+203	You have successfully purchased a Gigas item.
+204	You have successfully purchased a Coin item.
+205	Items have not been selected. Please select an item that you wish to sell from the inventory.
+206	Item cannot be sold to the store
+207	This item is already in the exchange window.
+208	Too many items.
+209	This item cannot be traded.
+210	blank(210)
+211	Invalid room name. Room names must be at least 4 characters long.
+212	You cannot enter the room in observer mode. Please try again.
+213	No player selected. Please select a player and try again.
+214	No friend selected. Please select a friend and try again.
+215	This function only applies to other players. Go to My Info to find out about yourself.
+216	Menu selection is wrong. Please try again.
+217	Due to a message service error message service will be closed temporarily.
+218	A buddy has not been selected from your buddy list. Please select a buddy and try again.
+219	You can only send a message to your buddies or same guild members. Please try again.
+220	This room is locked.  Please select another room or make your own.
+221	You can only add players in the lobby to your friends list.
+222	A player has not been selected from the player list. Please select one and try again.
+223	You cannot register yourself as your buddy. Please try again.
+224	Already registered as a friend. Please check your friends list and try again.
+225	You can only delete a friend already on your friend's list.
+226	The friend you wish to delete has not been selected. Please select one and try again.
+227	You cannot enter the room through observer mode. Please try again.
+228	The target has not been selected. Please select the target and try again.
+229	Please enter a BOT name.
+230	You cannot trade with yourself.
+231	There is no answer on your trade request.
+232	This player is either not logged in or cannot participate in a trade at the moment. Try again later.
+233	You have rejected the trade request.
+234	There is no answer to your trade request.
+235	Battle - Solo
+236	Battle - Team
+237	Planet Battle
+238	Military Battle.
+239	Room : %d
+240	Price: %d Gigas. Click OK to buy.
+241	%d coins are needed.
+242	Waiting for (%s)'s answer.
+243	(%s) has asked to be a buddy.
+244	Waiting for an answer to the trade request.
+245	(%s) has asked to trade. Do you accept?
+246	[WARNING] Deleting your BOT will delete your inventory, leave any guilds and delete gifts/messages only Stash will remain. Are you sure you wish to proceed?
+247	LAST CHANCE, NOTHING CAN BE RECOVERED ONCE THE BOT IS DELETED, EXCEPT FOR STASH. ARE YOU REALLY SURE YOU WISH TO DELETE?
+248	Failed to delete the BOT! Please try again.
+249	Possessing strong physical power, Patch was originally designed as heavy construction machinery. But later it was remodeled as combat machinery.
+250	Possessing strong physical power, Patch was originally designed as heavy construction machinery. But later it was remodeled as combat machinery.
+251	Designed only for a combat purposes, Surge can smoothly move around on any kind of terrain by its antigravity cyber core. It uses powerful laser attacks to penetrate heavy metals.
+252	Created on the concept of an insects' adaptability.  Using its unique arm, Ram is a multi-task machine with hidden weapons and quick attacks.
+253	Sell (%s) for (%d) Gigas to the store?
+254	%s has exited.
+255	%s has been forced out.
+256	%s has been logged out due to system overload.
+257	%s has been forced to log out due to overlapping login.
+258	%s has been disconnected from the server.
+259	%s has been forced to log out.
+260	Part Type: HEAD
+261	Part Type: BODY
+262	Part Type: ARM
+263	Item Type: Mini Bot
+264	Item Type: Gun
+265	Item Type: Energy Field
+266	[%s] has obtained <%s:%s>.
+267	[%s] has obtained <%s:%s>.
+268	[%s] has obtained <%s>.
+269	Items cannot be obtained because your inventory is full.
+270	Congratulations!  You have obtained an energy field.
+271	Congratulations!  You have obtained Bot-stract.
+272	Congratulations!  You have obtained a disk.
+273	%s has exited.
+274	%s has entered.
+275	Everyone is ready.  If you do not start the game by pressing the [START] button, you will be forced out of the room after (%d) seconds.
+276	%d detik tersisa.
+277	BOT Type: Patch
+278	BOT Type: Surge
+279	BOT Type: Ram
+280	Part Type: HEAD
+281	Part Type: BODY
+282	Part Type: ARM
+283	Able to equip from level %d.
+284	Item type: Wing
+285	Item type: Shield
+286	Item type: Shoulder
+287	Blank(287)
+288	Blank(288)
+289	Pack Type: Passive
+290	Pack Type: Attack
+291	Pack Type: Field
+292	Pack Type: Trans
+293	Pack Type: Mercenary
+294	View Info
+295	Add Friend
+296	Send Message
+297	Delete Friend
+298	Send Gift
+299	blank
+300	%dHours
+301	%dDays
+302	%dTimes
+303	%dGames
+304	Not Used
+305	BOT Type: Patch
+306	BOT Type: Surge
+307	BOT Type: Ram
+308	<br>Price: %d Gigas
+309	<br>Price: %d Coins
+310	<br>Req. Level: %d
+311	<color=#ffc600><br>Duration: %s
+312	<color=#ffc600><br>Duration: %d times
+313	<color=#ffc600><br>Duration: %d games
+314	<color=#ff0000>Item cannot be gifted.
+315	<color=#ff0000>Item cannot be traded.<br>
+316	<color=#ff0000>Item cannot be sold.<br>
+317	Attack (Basic) +%d ~ +%d
+318	Attack (Trans) +%d ~ +%d
+319	Evade +%d
+320	Critical +%d
+321	Special Trans +%d
+322	Trans Gauge +%d
+323	Secondary Speed+%d
+324	Trans Attack +%d
+325	Trans Def +%d
+326	Range Attack +%d
+327	Trans Speed +%d
+328	Luck +%d
+329	<br>%s skill loaded
+330	Patch
+331	Surge
+332	Ram
+333	Enter the name of the BOT you wish to trade with and click ok to begin trading. During the trade, you must both click confirm to accept the trade.
+334	Click here to see list of available items.
+335	BOT Name :
+336	[Trading Instructions]
+337	1. Select goods to trade.
+338	2. Press the [Complete] button to confirm your choices.
+339	3. When your choices are confirmed, the other player can see the goods offered.
+340	4. The other player should also confirm goods for you to see.
+341	5. Check to make sure the expected goods are present.
+342	6. If you press the [Complete] button at this time, the trade will be canceled.
+343	7. If you are satisfied, press the [ACCEPT] button.
+344	8. When the other player presses the [ACCEPT] button, the trade will be finalized.
+345	* You can not trade if you do not have an available slot in your inventory.
+346	* Some items can not be traded.
+347	* Please report all cases of scamming to GMs.
+348	Battle - Solo
+349	Battle - Team
+350	Planet Battle
+351	Military Battle.
+352	%s's Room
+353	%d seconds
+354	Planet Battle room no. %d
+355	Battle room no. %d
+356	EXP : %d/%d
+357	Is in lobby.
+358	In the Planet room #%d.
+359	In the Battle room #%d.
+360	To change the password, enter a new password, then press the [confirm] button.
+361	The password has been changed.
+362	New password:
+363	You've got a message.
+364	Random
+365	Total Point :%d
+366	In Military mode, only team members can chat with each other.
+367	A new guild has been made. You are the guild master.
+368	Already joined a guild.
+369	A guild with the same name already exists.
+370	Unable to find the User ID.
+371	Insufficient Gigas.
+372	There is no information on the guild.
+373	Incorrect guild name.
+374	You cannot invite yourself.
+375	Waiting for an answer to your guild invitation.
+376	There is no answer to your guild invitation
+377	Please name your guild. Guild names must be at least 4 characters long. You will be charged 30,000 Gigas to create a guild.
+378	%d Gigas
+379	%d Coins
+380	Guild Name :
+381	Type in the name of the guild you want to join.
+382	Do you want to change your mind about applying to the guild?
+383	Please enter the name of the BOT you wish to invite to the guild.
+384	You have no stash.\nDo you want to add a stash? (price : %d Coins.)
+385	BOT name :
+386	You cannot force yourself out of the guild.
+387	Would you like to expel (%s) out of the guild?
+388	You cannot accept any more members to your guild.
+389	Do you want to increase the capacity of your guild from(%d) to (%d)? The amount of Gigas needed to extend the guild is (%s)Gigas.
+390	Blank(390)
+391	Please confirm that you want to quit the guild.
+392	%s has invited you to a guild. Do you accept?
+393	This player is either not logged in or cannot answer the request at the moment.
+394	The player has refused the guild invite
+395	There is no answer to your guild invite
+396	%s has been added to your guild.
+397	%s cannot be added to the guild.(eno=%d)
+398	You have applied to join a guild.  You will become a member if the guild master accepts your application.
+399	You are already part of a guild.
+401	The guild you wish to join does not exist.
+402	The guild is full.
+403	Unable to apply to the guild
+404	You have refused the guild invitation
+405	You cannot refuse the guild invitation(eno=%d)
+406	You have been withdrawn from the guild.
+407	The guild has been expanded. Check [GUILD INFO] to confirm.
+408	The guild cannot be expanded anymore
+409	You have insufficient gold to extend the guild.
+410	Unable to expand the guild. (eno=%d)
+411	Guild Name: %s
+412	Create Date: %s
+413	Guild Member: %d (Max: %d)
+414	Guild Point: %d points
+415	Guild Rank: %d (dari total %d guild)
+416	[Rank %3d]   %-14s (%d point)
+417	Do you accept (%s)'s request to join?
+418	Do you refuse (%s)'s request to join?
+419	[Level %d] %s
+420	Guild Master: %s
+421	You added to the guild.
+422	You were expelled from the guild.
+423	The guild joining application was refused.
+424	Invalid guild name. Please use only numbers and letters, no spaces or symbols.
+425	You must be at least level 30 before you can create a guild.
+426	Mercenary Pack
+427	Failed in server connection. Please attempt again.
+428	It congratulates. It acquired the snowball!
+429	blank(429)
+430	Message sent!
+431	New memo arrived!
+432	Item Type: 1st Flag
+433	Item Type: 2nd Flag
+434	Enter the name of the recipient.
+435	Consume
+436	's Screen
+437	You can't send a gift to yourself.
+438	You can't send a message to yourself.
+439	All
+440	Part
+441	None
+442	Automatic
+443	High
+444	Low
+445	General Item
+446	Gold
+447	Koleksi item
+448	Permanent
+449	Years
+450	Days
+451	Times
+452	Games
+453	Please click the Ready Button.
+454	Hi ^^!
+455	Let's battle!
+456	I need help!
+457	Please enter the amount of Gigas.
+458	Please enter the amount of Bot-stract.
+459	(max : %d)
+460	Warning! Altering data without permission is punishable by law and you will be subject to prosecution.
+461	%s (Level %d)
+462	Solo
+463	Team
+464	In the Military room #%d.
+465	Guild
+466	Bisik
+467	blank(467)
+468	blank(468)
+469	blank(469)
+470	blank(470)
+471	blank(471)
+472	Chat
+473	Gift
+474	Memo
+475	Trade
+476	Friend
+477	Guild
+478	Enter the BOT Name who will not be able to send messages to you.
+479	You cannot add anymore BOTS to your Block List. (Limit 20)
+480	You cannot delete this BOT at this time, try again later. 
+481	This BOT is already on the list! 
+482	Cannot find this BOT, check the name and try again. 
+483	BOT Type: Any
+484	Benefit:<br>
+485	<color=#ff0000><br><br>Batasan:
+486	Congratulations. You have obtained a new item.
+487	Congratulations. You have obtained a new item.íª
+488	Congratulations. You have obtained a new item.íª.
+489	blank(489)
+490	Playing for %d hours.
+491	blank(491)
+492	blank
+493	blank
+494	blank
+495	blank
+496	blank
+497	blank
+498	blank
+499	blank
+500	blank
+501	blank
+502	blank
+503	blank
+504	Speedhack detected
+505	blank
+506	blank
+507	blank(507)
+509	Initializing Connection, Please Wait...
+510	You were ejected from the game because you were not responding.
+511	%s was ejected from the game because of idleness.
+512	Congratulations!  You got a Snowball!
+513	These parts cannot be combined. Need 3 of the same type parts to combine.
+514	Only same type parts can be combined
+515	Insufficient parts. Need 3 of the same type parts to combine.
+516	%s Item is succesfully combined. Please check inventory.
+517	Select Item.
+518	+5 Item cannot be combined.
+519	Congratulations!  You got a green chest!
+520	Congratulations!  You got a blue chest!
+521	Congratulations!  You got a pink chest!
+522	Congratulations!  You got a Easter Egg !
+523	Congratulations!  You got a 'B' !
+524	Congratulations!  You got a 'O' !
+525	Congratulations!  You got a 'T' !
+526	Congratulations!  You got a 'S' !
+527	Guild notice has been updated!
+528	You have reached the maximum number of guild members. Cannot be expanded more!
+529	Guild expansion has succeeded!
+530	Only guild masters can purchase the item!
+531	Congratulations. You have become a Mega-Bot.
+532	Warnet mission successful% d game. Press "S" KEY to get reward.
+533	You have chosen to be transformed to %s. Only equipped part items will be transformed too. Click OK to transform now or Cancel to check current equipped part items.!
+534	Setelah pakai <color=#ffc600>% s telah digunakan <br>
+535	BOT type changed successfully!
+536	Congratulations! You got a Candy!
+537	blank(537)
+538	Congratulations! You got a Red Candy!
+539	Congratulations! You got a Brown Candy!
+540	Congratulations! You got a Yellow Candy!
+541	Event Message!
+542	Solo
+543	Team
+544	%s has killed %s.
+545	Congratulations! You got letter D!
+546	Congratulations! You got letter E!
+547	Congratulations! You got letter A!
+548	Congratulations! You got letter D!
+549	This item can not be refunded
+550	Newbie
+551	Trainee-B
+552	Trainee-S
+553	Trainee-G
+554	Private-B
+555	Private-S
+556	Private-G
+557	Corporal-B
+558	Corporal-S
+559	Corporal-G
+560	Sergeant-B
+561	Sergeant-S
+562	Sergeant-G
+563	Staff Sgt-B
+564	Staff Sgt-S
+565	Staff Sgt-G
+566	Sgt. 1st-B
+567	Sgt. 1st-S
+568	Sgt. 1st-G
+569	Superior-B
+570	Superior-S
+571	Superior-G
+572	2nd lt.-B
+573	2nd lt.-S
+574	2nd lt.-G
+575	1st lt.-B
+576	1st lt.-S
+577	1st lt.-G
+578	Captain-B
+579	Captain-S
+580	Captain-G
+581	Lt. Comm-B
+582	Lt. Comm-S
+583	Lt. Comm-G
+584	Commander-B
+585	Commander-S
+586	Commander-G
+587	Major - B
+588	Major - S
+589	Major - G
+590	Lt colonel-B
+591	Lt colonel-S
+592	Lt colonel-G
+593	Colonel-B
+594	Colonel-S
+595	Colonel-G
+596	Brigadier-B
+597	Brigadier-S
+598	Brigadier-G
+599	LtGeneral-B
+600	LtGeneral-S
+601	LtGeneral-G
+602	General
+603	Minister
+604	President
+605	Lv 
+606	Start Message
+607	Start Message
+608	You have played for 1 hour.
+609	You have played for 2 hours.
+610	You have played for 3 hours.
+611	More than 3 hours.
+612	More than 3 hours.
+613	More than 5 hours.
+614	More than 5 hours.
+615	Is preparing.
+616	Fullscreen
+617	Windowed Mode
+618	blank
+619	http://202.12.75.71:5506/TestLink/event.asp
+620	http://202.12.75.71:5506/rank/rank.asp

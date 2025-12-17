@@ -1,0 +1,40 @@
+;	ٿƮ  ũƮ		
+;	2005/10/06		
+;			
+;	0		?
+;	1	̽Ʈ	?
+;	2	׿-̽Ʈ	?III
+;	3	Ʈ	?
+;	4	ϸڷ	?
+;	5	۷ĳ	?
+;	6	-ǰ¥	
+;	7	KIN-Ʈ	?
+;	8	-Ǳ	??
+;	9	̽Ʈ	?II
+;			
+;			
+;			
+;	ȣ	̸	Ī	BGM	UI׸	ʼ	ø
+;	0	?	ringoffighter	sound/bgm_battle01.wav	data/ui/ui_mb001.tga	1	1
+;	1	?	wasteland	sound/bgm_battle02.wav	data/ui/ui_mb002.tga	1	1
+;	2	?III	neo_wasteland	sound/bgm_battle03.wav	data/ui/ui_mb003.tga	1	1
+;	3	?	moongate	sound/bgm_battle04.wav	data/ui/ui_mb004.tga	1	0
+;	4	?	killi	sound/bgm_battle01.wav	data/ui/ui_mb005.tga	1	1
+;	5	?	glasscastle	sound/bgm_battle02.wav	data/ui/ui_mb006.tga	1	0
+;	6		new_deathvalley	sound/bgm_battle03.wav	data/ui/ui_mb007.tga	1	0
+;	7	?	kinbelt	sound/bgm_battle04.wav	data/ui/ui_mb008.tga	1	0
+;	8	??	new_pod	sound/bgm_battle02.wav	data/ui/ui_mb009.tga	1	0
+;	9	?II	wasteland_pit	sound/bgm_battle03.wav	data/ui/ui_mb010.tga	1	1
+;							
+;	ȣ	̸	Ī	BGM	UI׸	ʼ	ø
+	0	Cage of Death	ringoffighter	sound/bgm_battle01.wav	data/ui/ui_mb001.tga	1	1
+	1	Deadly Station	wasteland	sound/bgm_battle02.wav	data/ui/ui_mb002.tga	1	1
+	2	Crash Bridge	neo_wasteland	sound/bgm_battle03.wav	data/ui/ui_mb003.tga	1	1
+	3	Lava Canyon	moongate	sound/bgm_battle04.wav	data/ui/ui_mb004.tga	1	0
+	4	Pirates Island	killi	sound/bgm_battle01.wav	data/ui/ui_mb005.tga	1	1
+	5	Hexa Glass	glasscastle	sound/bgm_battle02.wav	data/ui/ui_mb006.tga	1	0
+	6	Land of Death	new_deathvalley	sound/bgm_battle03.wav	data/ui/ui_mb007.tga	1	0
+	7	Vacuum Belt	kinbelt	sound/bgm_battle04.wav	data/ui/ui_mb008.tga	1	0
+	8	Pit of Faith	new_pod	sound/bgm_battle02.wav	data/ui/ui_mb009.tga	1	0
+;	9	Destiny Land	wasteland_pit	sound/bgm_battle03.wav	data/ui/ui_mb010.tga	1	1
+;							
