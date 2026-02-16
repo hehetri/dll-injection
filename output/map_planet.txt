@@ -1,0 +1,37 @@
+0	[Level 1] Training Ring	ar01_d01	lv01_training_ring	sound/bgm_dun02.wav	data/ui/ui_mm001.tga	0	0	1	450	45	1
+	1	[Level 3] Base Camp	ar02_d01	lv03_base_camp	sound/bgm_dun01.wav	data/ui/ui_mm002.tga	0	0	3	540	54	1
+	2	[Level 6] Camp Spike	ar03_d01	lv06_camp_spike	sound/bgm_dun01.wav	data/ui/ui_mm003.tga	0	0	6	630	63	1
+	3	[Level 8] Camp Escape	ar04_d01	lv08_camp_escape	sound/bgm_dun02.wav	data/ui/ui_mm029.tga	0	0	8	630	63	1
+	4	[Level 10] Planet Alderan	ad01_d01	lv10_planet_alderan	sound/bgm_battle01.wav	data/ui/ui_mm004.tga	26	69	10	900	90	1
+	5	[Level 13] Mine Entrance	ad02_d01	lv13_mine_entrance	sound/bgm_battle02.wav	data/ui/ui_mm005.tga	310	69	13	1080	108	1
+	6	[Level 16] Mine Alderan	ad03_d01	lv16_mine_alderan	sound/bgm_battle02.wav	data/ui/ui_mm006.tga	57	70	16	1170	117	0
+	7	[Level 18] Inner Mine	ad031_d01	lv18_inner_mine	sound/bgm_battle02.wav	data/ui/ui_mm030.tga	56	70	18	1170	117	0
+	8	[Level 20] Mine Exit	ad04_d01	lv20_mine_exit	sound/bgm_battle02.wav	data/ui/ui_mm007.tga	20	71	20	1260	126	0
+	9	[Level 23] Lava Sea	ad05_d01	lv23_lava_sea	sound/bgm_battle03.wav	data/ui/ui_mm008.tga	22	71	23	1260	126	1
+	10	[Level 26] Lava Sea 2	ad06_d01	lv26_lava_sea_2	sound/bgm_battle04.wav	data/ui/ui_mm009.tga	311	72	26	1350	135	1
+	11	[Level 28] Lava Sea 3	ad07_d01	lv28_lava_sea_3	sound/bgm_battle04.wav	data/ui/ui_mm031.tga	311	72	28	1350	135	0
+	12	[Level 30] Acurin Ruins	aq01_d01	lv30_acurin_ruins	sound/bgm_dun01.wav	data/ui/ui_mm010.tga	34	73	30	1350	135	1
+	13	[Level 33] Acurin Ruins 2	aq02_d01	lv33_acurin_ruins_2	sound/bgm_dun02.wav	data/ui/ui_mm011.tga	35	73	33	1350	135	1
+	14	[Level 35] Acurin Ruins 3	aq021_d01	lv35_acurin_ruins_3	sound/bgm_battle01.wav	data/ui/ui_mm039.tga	0	0	35	1350	135	1
+	15	[Level 36] Planet Acurin	aq03_d01	lv36_planet_acurin	sound/bgm_battle01.wav	data/ui/ui_mm012.tga	62	74	36	1350	135	0
+	16	[Level 38] Planet Acurin 2	aq031_d01	lv38_planet_acurin_2	sound/bgm_battle01.wav	data/ui/ui_mm032.tga	62	74	38	1350	135	1
+	17	[Level 40] Port Acurin	aq04_d01	lv40_port_acurin	sound/bgm_battle03.wav	data/ui/ui_mm013.tga	91	75	40	1440	144	1
+	18	[Level 43] Escape Acurin	aq05_d01	lv43_escape_acurin	sound/bgm_battle03.wav	data/ui/ui_mm014.tga	92	75	43	1440	144	1
+	19	[Level 46] Planet MECA	mp01_d01	lv46_planet_meca	sound/bgm_battle04.wav	data/ui/ui_mm015.tga	102	76	46	1440	144	0
+	20	[Level 48] Planet MECA 2	mp011_d01	lv48_planet_meca_2	sound/bgm_battle04.wav	data/ui/ui_mm033.tga	102	76	48	1440	144	0
+	21	[Level 50] Hidden Archive	mp02_d01	lv50_hidden_archive	sound/bgm_battle03.wav	data/ui/ui_mm016.tga	43	77	50	1530	153	0
+	22	[Level 53] Secret Passage	mp03_d01	lv53_secret_passage	sound/bgm_dun01.wav	data/ui/ui_mm017.tga	110	77	53	1530	153	0
+	23	[Level 56] Destroy MECA	mp04_d01	lv56_destroy_meca	sound/bgm_dun02.wav	data/ui/ui_mm018.tga	122	78	56	1530	153	0
+	24	[Level 58] Destroy MECA 2	mp041_d01	lv58_destroy_meca_2	sound/bgm_dun02.wav	data/ui/ui_mm034.tga	122	78	58	1530	153	0
+	25	[Level 60] Escape from MECA	mp05_d01	lv60_escape_from_meca	sound/bgm_battle01.wav	data/ui/ui_mm019.tga	140	79	60	1620	162	0
+	26	[Level 61] Ship Takeover	sh04_d01	lv61_ship_takeover	sound/bgm_battle03.wav	data/ui/ui_mm020.tga	140	348	61	1620	162	0
+	27	[Level 63] Mera Mountain	mt01_d01	lv63_mera_mountain	sound/bgm_battle01.wav	data/ui/ui_mm035.tga	140	79	63	1620	162	0
+	28	[Level 66] Mera Mountain 2	mt02_d01	lv66_mera_mountain_2	sound/bgm_battle01.wav	data/ui/ui_mm036.tga	157	347	66	1620	162	0
+	29	[Level 68] Mera Mountain 3	mt03_d01	lv68_mera_mountain_3	sound/bgm_battle01.wav	data/ui/ui_mm037.tga	253	347	68	1620	162	0
+	30	[Level 70] Mera Mountain 4	mt04_d01	lv70_mera_mountain_4	sound/bgm_battle01.wav	data/ui/ui_mm038.tga	253	347	70	1620	162	0
+	31	[Level 08] The Fallen (Elite)	el01_d01	elite_lv08_the_fallen	sound/bgm_dunelite.wav	data/ui/ui_me001.tga	163	355	8	1080	108	1
+	32	[Level 18] Lava Field (Elite)	el02_d01	elite_lv18_lava_field	sound/bgm_dunelite.wav	data/ui/ui_me002.tga	170	356	18	2160	216	1
+	33	[Level 28] The Pirate (Elite)	el03_d01	elite_lv28_the_pirate	sound/bgm_dunelite.wav	data/ui/ui_me003.tga	178	357	28	2700	270	0
+	34	[Level 38] Evil Port (Elite)	el04_d01	elite_lv38_evil_port	sound/bgm_dunelite.wav	data/ui/ui_me004.tga	189	358	38	2700	270	1
+	35	[Level 48] Bloodway (Elite)	el05_d01	elite_lv48_bloodway	sound/bgm_dunelite.wav	data/ui/ui_me005.tga	192	359	48	2880	288	0;							
+
